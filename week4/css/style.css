@@ -25,5 +25,5 @@ a {
 /* Class Selectors ***********************************/
 .page {
     max-width: 960px;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
