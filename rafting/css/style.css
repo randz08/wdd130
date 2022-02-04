@@ -1,0 +1,70 @@
+* {
+    margin: 0 auto;
+    padding: 1ex;
+}
+
+body {
+    background-color: rgb(95, 158, 160, 1);
+    font-size: 16px;
+    font-family: Georgia, serif;  
+}
+h2{
+    background-color:rgb(18, 130, 162);
+    color:cornsilk;
+    font-family: "PT Sans", sans-serif;
+    margin-left: 2px;
+    padding: 1em;
+    margin: 10px;
+    border: solid rgb(18, 30, 124);
+    
+}
+header{
+    background-color: rgb(222, 184, 135, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(18, 30, 124);
+    display: grid;
+    grid-template-columns: auto;
+    align-items: left;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+}
+.red {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(228, 240, 205);
+  }
+
+a {
+    color: rgb(0, 0, 139, 1);
+}
+
+
+/* Class Selectors ***********************************/
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.box {
+    margin: 1rem 2rem;
+    padding: 0.75rem;
+    border: 5px solid rgb(18, 30, 124);
+    text-align: justify;
+    line-height: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+  }
+
+.articlepic {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem #777;
+    float: right;
+}
+
