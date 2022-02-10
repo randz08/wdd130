@@ -26,13 +26,14 @@ header{
     justify-content: center;
     color: antiquewhite;
 }
+
 footer{
     background-color: rgb(18, 30, 124);
     display: grid;
     grid-template-columns: auto;
     align-items: left;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     color: cornsilk;
 }
 .white {
@@ -58,7 +59,7 @@ a {
     border: 5px solid rgb(18, 30, 124);
     text-align: justify;
     line-height: 150%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     color: rgb(18, 30, 124);
   }
 
