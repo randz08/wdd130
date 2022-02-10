@@ -31,7 +31,6 @@ footer{
     background-color: rgb(18, 30, 124);
     display: grid;
     grid-template-columns: auto;
-    align-items: left;
     justify-content: center;
     font-family: Verdana, Tahoma, sans-serif;
     color: cornsilk;
