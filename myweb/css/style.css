@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(182, 202, 202);
+    font-size: 16px;
+    font-family: Georgia, serif;  
+}
+h2{
+    background-color:rgb(19, 24, 26);
+    text-align: center;
+    color:cornsilk;
+    font-family: "PT Sans", sans-serif;
+    padding: 1em;
+    margin: 10pt;
+    border: solid rgb(98, 129, 12);
+    
+}
+header{
+    background-color: rgb(134, 131, 131);
+    align-items: center;
+    color: antiquewhite;
+    border-bottom: 1px solid #ccc;
+    max-width: 1200px;
