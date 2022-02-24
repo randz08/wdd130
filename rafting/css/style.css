@@ -40,16 +40,17 @@ nav > ul {
     list-style-type: none;
     display: flex;
   }
-  nav a {
+nav a {
     padding: 1em;
     min-width: 70px;
     text-decoration: none;
   }
-  nav a:link, nav a:visited {
-    color: rgb(139, 139, 189);
-    background-color: rgb(17, 17, 17);
-    font-weight: 700;
-  }
+
+
+nav a :hover {
+    color: green;
+}
+
 
 .home-grid {
       display: grid;
