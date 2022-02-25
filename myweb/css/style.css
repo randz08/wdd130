@@ -9,19 +9,18 @@ body {
     box-sizing: border-box;
     padding: 10px;  
 }
-h2{
+h1, h2, h3{
     
     text-align: center;
     color:rgb(8, 8, 8);
     font-family: "PT Sans", sans-serif;
-    padding: 1em;
+    background-color: rgb(87, 84, 84);
     margin: 10pt;
-
+    padding: 10px;
 }  
 
 header{
-    background-color: rgb(17, 17, 17);
-    align-items: center;
+    background-color: rgb(87, 84, 84);
     color: antiquewhite;
     border-bottom: 1px solid #ccc;
  }
@@ -46,6 +45,16 @@ nav a {
     margin: 2rem;
 
 }
+
+.sitemap {
+    display: grid;
+}
+.sitemap1 {
+    grid-column:  1 / 2;
+}
+.sitemap2 {
+    grid-column: 2 / 3;
+}
 .content {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
@@ -64,6 +73,7 @@ a {
 p {
     font-size: larger;
     color: rgb(48, 47, 47);
+    margin: 20px;
 }
 
 
