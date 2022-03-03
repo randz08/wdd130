@@ -25,13 +25,15 @@ header{
     align-items: center;
     color: antiquewhite;
     border-bottom: 1px solid #ccc;
+    
  }
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
 
-.herodiv {
-    display: grid;
-    margin: 10px;
-    position: relative;
 }
+
 nav {
     flex: 1 1 auto;
 }
@@ -49,6 +51,22 @@ nav a {
 
 nav a hover {
     color: green;
+}
+
+.herodiv {
+    display: grid;
+    margin: 10px;
+}
+
+.stats {
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    background: radial-gradient(#eee, #0f0f0f);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow:  0 0 30px #333;
+    opacity: 0.9;
 }
 
 
@@ -138,14 +156,4 @@ p {
     box-shadow: 0 0 2rem #777;
     float: right;
 }
- .stats {
-     position: absolute;
-     top: 20px;
-     left: 300px;
-     background: radial-gradient(#eee, #0f0f0f);
-     border: 1px solid #000;
-     padding: 1.5rem;
-     box-shadow:  0 0 30px #333;
-     opacity: 0.9;
- }
 

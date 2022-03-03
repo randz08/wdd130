@@ -3,11 +3,14 @@
 }
 
 body {
-    background-color: rgb(95, 158, 160, 1);
+    background-color: rgb(114, 226, 226);
     font-size: 16px;
     font-family: Georgia, serif;
     box-sizing: border-box;
     padding: 0px;  
+}
+h1 {
+    margin: 10px;
 }
 h2{
     background-color:rgb(18, 130, 162);
@@ -19,13 +22,16 @@ h2{
     border: solid rgb(18, 30, 124);
     
 }
+.traveltorafting-logo {
+    margin: 5px;
+}
 header{
     background-color: rgb(17, 17, 17);
     display: flex;
     align-items: center;
     color: antiquewhite;
     border-bottom: 1px solid #ccc;
-    max-width: 1200px;
+    max-width: 100%;
  }
 
 .herodiv {

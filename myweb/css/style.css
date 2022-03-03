@@ -66,6 +66,19 @@ nav a {
   margin: 20px;
 }
 
+.wireframe {
+    display: grid;
+}
+.homepage {
+    grid-column: 1 / 2;
+}
+
+.services {
+    grid-column: 2 / 3;
+}
+.pic {
+    border: solid darkgrey;
+}
 
 a {
     color: rgb(249, 250, 244);
