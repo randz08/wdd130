@@ -154,6 +154,7 @@ p {
     margin: 2rem;
     font-size: larger;
 }
+
 /* Class Selectors ***********************************/
 .page {
     max-width: 960px;
@@ -167,6 +168,7 @@ p {
     box-shadow: 0 0 2rem #777;
     border: 1px solid rgb(18, 30, 124);
     text-align: center;
+    padding: 1em;
  }
 .box {
     margin: 1rem 2rem;
