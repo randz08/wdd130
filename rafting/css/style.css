@@ -32,7 +32,6 @@ h4 {
 .traveltorafting-logo {
     margin: 20px;
 }
-
 header{
     background-color: rgb(17, 17, 17);
     display: flex;
@@ -40,8 +39,7 @@ header{
     color: antiquewhite;
     border-bottom: 1px solid #ccc;
     max-width: 100%;
- }
-
+}
 .herodiv {
     margin: 10px;
     position: relative;
@@ -49,18 +47,15 @@ header{
 nav {
     flex: 1 1 auto;
 }
-
 nav > ul {
     list-style-type: none;
     display: flex;
-  }
+}
 nav a {
     padding: 1em;
     min-width: 70px;
     text-decoration: none;
-  }
-
-
+}
 nav a:hover {
     color: green;
 }
@@ -134,15 +129,12 @@ nav a:hover {
 }
 .randz {
     grid-column: 1 / 2;
-    margin: auto;
-  
+    margin: auto;  
 }
 .social {
     grid-column: 2 / 3;
   
 }
-
-
 footer{
     background-color: rgb(191, 191, 201);
     font-family: Verdana, Tahoma, sans-serif;
@@ -153,7 +145,7 @@ footer{
     font-size: 30px;
     color: rgb(52, 53, 50);
     font-weight: 700;
-  }
+}
 
 a {
     color: rgb(249, 250, 244);
@@ -162,8 +154,6 @@ p {
     margin: 2rem;
     font-size: larger;
 }
-
-
 /* Class Selectors ***********************************/
 .page {
     max-width: 960px;
@@ -171,7 +161,6 @@ p {
     background-color: rgb(84, 207, 245);
     border: 1px solid #000;
 }
- 
 .box2 {
     margin: 0.5rem 1rem;
     border-radius: 5rem;
@@ -188,8 +177,7 @@ p {
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(18, 30, 124);
     background-color: rgb(255, 253, 253);
-  }
-
+}
 .articlepic {
     margin: 0.5rem 1rem;
     border-radius: 1rem;
