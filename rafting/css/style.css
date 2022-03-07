@@ -19,7 +19,7 @@ h2{
     font-family: "PT Sans", sans-serif;
     padding: 1em;
     margin: 10pt;
-    border: solid rgb(18, 30, 124);  
+    border: 1px solid rgb(18, 30, 124);  
 }
 h3 {
     text-align: center;
@@ -169,7 +169,7 @@ p {
     max-width: 960px;
     margin: 0 auto;
     background-color: rgb(84, 207, 245);
-    border: solid #000;
+    border: 1px solid #000;
 }
  
 .box2 {
@@ -182,11 +182,12 @@ p {
 .box {
     margin: 1rem 2rem;
     padding: 0.75rem;
-    border: 5px solid rgb(18, 30, 124);
+    border: 1px solid rgb(18, 30, 124);
     text-align: justify;
     line-height: 150%;
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(18, 30, 124);
+    background-color: rgb(255, 253, 253);
   }
 
 .articlepic {
@@ -206,7 +207,7 @@ p {
      opacity: 0.9;
  }
 .pic {
-    border: solid #000;
+    border: 1px solid #000;
     box-shadow: 0 0 2rem #777;
     border-radius: 1rem;
 }
