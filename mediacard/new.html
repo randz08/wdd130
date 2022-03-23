@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Media Card</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #8e9eab, #eef2f3);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            letter-spacing: 0.03em;
+            border-radius: 2rem;
+        }
+
+       .card {
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 3px;
+            background-color: white;  
+            position: relative;
+          }
+
+
+        p {
+            font-size: larger;
+            padding: 1em;
+            text-align: justify;
+            margin: auto;
+        }
+
+      .img {
+            max-width: 100%;
+        }
+      button {
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        bottom: 10px;
+        left: 10px;
+        position: absolute;
+      }
+      .button2 {
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        bottom: 10px;
+        left: 80px;
+        position: absolute;
+      }
+      .time {
+        text-align: right;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img class="img" src="https://cdn.glitch.global/7e79b2ab-2fac-44d7-afb0-9f5bafbb0fd2/first%20vision.jpeg?v=1647961121224" width="400" alt="first vision">
+        <p>
+            In the spring of 1820, God the Father and Jesus Christ appeared to Joseph Smith as he prayed in a grove of trees near his home in western New York. This event is known as the First Vision.
+        </p>
+    <p class="time">
+      9 mins
+      </p>
+<footer>
+  <button type="button" onclick="alert('testing')">view</button>
+  <button class="button2" type="button" onclick="alert('testing')">edit</button>
+  </footer>
+</div>
+</body>
+
+</html>
